@@ -13,7 +13,6 @@ Esse exemplo conta com as classes:
 - Teste (Classe Principal)
 
 *Problema:* Preciso conectar um controle de PlayStation 5 em um computador que só reconhece controles de Xbox.
-
 *Solução:* Adaptar o controle para que ele seja reconhecido como um de Xbox.
 
 A ideia é simples, utilizar o SensorPS5 como interface para através dele, conseguir migrar seus métodos e propriedades para um Adapter(AdaptadorPS5ParaXbox), que por sua vez, realiza o trabalho de conversão. Enquanto que o Cliente, neste caso, fica responsável pela conexão de entrada, por onde o Adapter irá converter suas propriedades para ser interpretado como um controle de Xbox.
